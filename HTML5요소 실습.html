@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>식당예약</h1>
+    <p>식당예약 날짜와 시간을 입력해주세요</p>
+    <form action="./예약완료.html">
+        <input type="date" name="date" 
+                value="2022-08-24" 
+                min="2022-08-24"
+                max="2022-08-31"
+                >
+        <input type="time" value="11:40" min="09:00" max="18:00"> <br>
+        <label for="">이메일</label>
+        <input type="email">
+        <p>예약정보는 위의 이메일로 보내드리겠습니다</p>
+        <input type="submit" value="전송">
+    </form>
+
+    <h1>아래정보를 입력하여 회원가입을 하세요</h1>
+    <form action="">
+        <label for="">사용자아이디 : </label>
+        <input type="text" placeholder="예시)apple" required> <br>
+        <label for="">비밀번호 : </label>  
+        <input type="password" placeholder="예시)1234" required> <br>
+        <label for="">이메일 : </label>
+        <input type="email" > <br>
+        <label for="">주소 : </label>
+        <input type="text" > <br>
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>
